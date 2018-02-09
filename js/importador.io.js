@@ -22,13 +22,14 @@
         'Poxa campeão, deu pau... EU sei que você consegue arrumar!',
         'Força brother, não deu desta vez mas tenta novamente...',
         'Até ia dar certo, mas não. Bora arrumar que sei que tá fácil!',
-        'Fechow, agora só falta funcionar :D'
+        'Fechow, agora só falta funcionar :D',
+        'Ô louco meu! Quem sabe quebra ao vivo!',
+        'Você traiu o movimento punk véio!'
     ];
 
     var defaults = {
         someDefaultOption: 'foo'
     };
-
 
     /**
      * Merge defaults with user options
