@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Don't you think your site deserves an ending like in the movies? Show all your staff, your thanks, your logos and partners with this component!">
+    <meta name="author" content="Daniel Malkafly @ Coletivo Bima">
+    <title>End Credits by Coletivo Bima</title>
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <!-- Custom styles for this template by getbootstrap.com -->
+    <link href="demo/jumbotron-narrow.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="pull-right">
+                <br />
+                <iframe src="http://ghbtns.com/github-btn.html?user=malkafly&repo=importador.io&type=watch" allowtransparency="true" frameborder="0" scrolling="0" width="62" height="20"></iframe>
+                <iframe src="http://ghbtns.com/github-btn.html?user=malkafly&repo=importador.io&type=fork" allowtransparency="true" frameborder="0" scrolling="0" width="62" height="20"></iframe>
+                <iframe src="http://ghbtns.com/github-btn.html?user=malkafly&repo=importador.io&type=follow&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="132" height="20"></iframe>
+            </div>
+            <h3 class="text-muted">IMPORTADOR.IO</h3>
+        </div>
+
+        <div class="jumbotron">
+            <h1>Eu me importo com você.</h1>
+            <p>Todo software dá pau, dá erro, dá xabú, dá merda, dá ruim... Isso não significa que somos maus desenvolvedores, apenas que o software não está pronto ou maduro o suficiente. Este aqui é o primeiro plugin que mostra que se importa com você, basta instalar e se permitir o afago.</p>
+            <p>
+                <a class="btn btn-lg btn-danger" href="javascript:alertazuado();" name="creditos">Simular Erro</a>
+            </p>
+        </div>
+        <div class="footer">
+            <p>&copy;
+                <a href="http://coletivobima.com.br">Coletivo Bima</a>&nbsp;2014 by <a href="http://twitter.com/malkafly">@malkafly</a></p>
+        </div>
+
+    </div>
+    <!-- /container -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+    <script src="js/importador.io.js"></script>
+    <script>
+    window.onerror = function myErrorHandler(errorMsg, url, lineNumber) {
+        var eumeimporto = new ImportadorIO();
+        alert(eumeimporto.mandaimports());
+        return false;
+    }
+    </script>
+</body>
+
+</html>
