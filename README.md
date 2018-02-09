@@ -12,25 +12,28 @@ Inicialize o plugin.
 Chame o plugin
  ```javascript
 window.onerror = function myErrorHandler(errorMsg, url, lineNumber) {
-   var boilerplate = new Boilerplate(document.getElementById('demo'), {
-    someDefaultOption: 'Plugin was loaded vanilla style!'
-});
-
-boilerplate.doSomething();
+    var eumeimporto = new ImportadorIO();
+    alert(eumeimporto.mandaimports());
+    return false;
 }
 ```
+o choro é livre.
 
+## Próximos passos
+ - Colocar genero na chamada do plugin para melhorar as frases
+ - mais exemplos de utilização
 
 
 ## Como colaborar
 Faça um fork e colabora com as frases motivacionais!
 
 ```javascript
-window.onerror = function myErrorHandler(errorMsg, url, lineNumber) {
-    
-    alert("Error occured: " + errorMsg);
-    return false;
-}
+ var eumeimportation = [
+        'Poxa campeão, deu pau... EU sei que você consegue arrumar!',
+        'Força brother, não deu desta vez mas tenta novamente...',
+        'Até ia dar certo, mas não. Bora arrumar que sei que tá fácil!',
+        'Fechow, agora só falta funcionar :D'
+    ];
 ```
 
 ## License
